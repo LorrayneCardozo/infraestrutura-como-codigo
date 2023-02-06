@@ -1,12 +1,12 @@
 # Infraestrutura como Código: Script de Criação de Estrutura de Usuários, Diretórios e Permissões
 O projeto consiste em um desafio do curso de Linux da plataforma [Digital Innovation One - DIO](https://www.dio.me/), cujo objetivo é colocar em prática os conhecimentos obtidos durante as aulas criando um script para automatizar a criação de diretórios, usuários, grupos e as permissões de cada diretório.
 
-## Como funciona
+## ❓ Como funciona
 Os usuários serão criados e atribuídos aos respectivos grupos, conforme a imagem abaixo.
 
 ![](./img/estrutura.png)
 
-O sistema segue as seguintes regras:
+O sistema funciona da seguinte forma:
 
 * O dono de todos os diretórios criados será o usuário root;
 * Todos os usuários terão permissão total dentro do diretório publico;
